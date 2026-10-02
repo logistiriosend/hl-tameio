@@ -15,7 +15,7 @@
 
 **Τώρα:** `1.2.7` → [`tameio_master_1.2.7.ods`](tameio_master_1.2.7.ods)
 
-Τα παλιότερα `tameio_master_1.2.x.ods` στο repo μένουν ως ιστορικό· τα καταστήματα ακολουθούν μόνο ό,τι λέει το `version.json`.
+Τα παλιότερα πρότυπα είναι στο [`archive/`](archive/). Ιστορικό αλλαγών: [`CHANGELOG.md`](CHANGELOG.md). Τα καταστήματα ακολουθούν μόνο ό,τι λέει το `version.json`.
 
 ## Τι κάνει το πρότυπο
 
@@ -43,9 +43,16 @@ Macros (ενδεικτικά):
 ## Δημοσίευση νέας έκδοσης
 
 1. Ετοίμασε το νέο `tameio_master_X.Y.Z.ods` (έκδοση στο Ρυθμίσεις!B1).
-2. Ανέβασέ το στο `master` αυτού του repo.
-3. Ενημέρωσε το `version.json` (`version`, `ods_url`, `notes`).
-4. Τα καταστήματα με παλαιότερο B1 θα το πάρουν στην επόμενη «νέα ημέρα» (με γεμάτα B2–B6).
+2. Ανέβασέ το στο `master` αυτού του repo (root).
+3. Μετακίνησε το προηγούμενο `tameio_master_*.ods` στο [`archive/`](archive/) και ενημέρωσε το [`CHANGELOG.md`](CHANGELOG.md).
+4. Ενημέρωσε το `version.json` (`version`, `ods_url`, `notes`).
+5. Τα καταστήματα με παλαιότερο B1 θα το πάρουν στην επόμενη «νέα ημέρα» (με γεμάτα B2–B6).
+
+## Δομή repo
+
+- `README.md`, `CHANGELOG.md`, `version.json`
+- `tameio_master_<τρέχουσα>.ods` — πρότυπο στο root (τώρα 1.2.7)
+- `archive/` — παλαιές εκδόσεις
 
 ## Ασφάλεια
 
