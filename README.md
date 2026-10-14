@@ -13,7 +13,7 @@
 | `notes` | Σύντομο μήνυμα στην αναβάθμιση |
 | `min_compatible` | Ελάχιστη συμβατή έκδοση |
 
-**Τώρα:** `1.3.2` → [`tameio_master_1.3.2.ods`](tameio_master_1.3.2.ods)
+**Τώρα:** `1.3.3` → [`tameio_master_1.3.3.ods`](tameio_master_1.3.3.ods)
 
 Τα παλιότερα πρότυπα είναι στο [`archive/`](archive/). Ιστορικό αλλαγών: [`CHANGELOG.md`](CHANGELOG.md). Τα καταστήματα ακολουθούν μόνο ό,τι λέει το `version.json`.
 
@@ -55,7 +55,7 @@ Macros (ενδεικτικά):
 ## Δομή repo
 
 - `README.md`, `CHANGELOG.md`, `version.json`
-- `tameio_master_<τρέχουσα>.ods` — πρότυπο στο root (τώρα 1.3.2)
+- `tameio_master_<τρέχουσα>.ods` — πρότυπο στο root (τώρα 1.3.3)
 - `archive/` — παλαιές εκδόσεις (1.2.2, 1.2.3, 1.2.5, 1.2.6, 1.2.7, 1.3.1)
 
 ## Ασφάλεια
