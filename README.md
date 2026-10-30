@@ -15,7 +15,7 @@
 
 **Τώρα:** `1.3.2` → [`tameio_master_1.3.2.ods`](tameio_master_1.3.2.ods)
 
-Τα παλιότερα πρότυπα είναι στο [`archive/`](archive/). Ιστορικό αλλαγών: [`CHANGELOG.md`](CHANGELOG.md). Τα καταστήματα ακολουθούν μόνο ό,τι λέει το `version.json`.
+Τα παλιότερα πρότυπα φυλάσσονται στο private repo `tameio-files` (φάκελος `archive/`). Ιστορικό αλλαγών: [`CHANGELOG.md`](CHANGELOG.md). Τα καταστήματα ακολουθούν μόνο ό,τι λέει το `version.json`.
 
 ## Τι κάνει το πρότυπο
 
@@ -48,7 +48,7 @@ Macros (ενδεικτικά):
 
 1. Ετοίμασε το νέο `tameio_master_X.Y.Z.ods` (έκδοση στο Ρυθμίσεις!B1).
 2. Ανέβασέ το στο `master` αυτού του repo (root).
-3. Μετακίνησε το προηγούμενο `tameio_master_*.ods` στο [`archive/`](archive/) και ενημέρωσε το [`CHANGELOG.md`](CHANGELOG.md).
+3. Μετακίνησε το προηγούμενο `tameio_master_*.ods` στο `archive/` του `tameio-files` (και σβήσ'το από εδώ) και ενημέρωσε το [`CHANGELOG.md`](CHANGELOG.md).
 4. Ενημέρωσε το `version.json` (`version`, `ods_url`, `notes`).
 5. Τα καταστήματα με παλαιότερο B1 θα το πάρουν στην επόμενη «νέα ημέρα» (με γεμάτα B2–B6).
 
@@ -56,7 +56,6 @@ Macros (ενδεικτικά):
 
 - `README.md`, `CHANGELOG.md`, `version.json`
 - `tameio_master_<τρέχουσα>.ods` — πρότυπο στο root (τώρα 1.3.2)
-- `archive/` — παλαιές εκδόσεις (1.2.2, 1.2.3, 1.2.5, 1.2.6, 1.2.7, 1.3.1)
 
 ## Ασφάλεια
 
